@@ -66,11 +66,8 @@ public class HayvanatBahcesi {
 
 	public boolean ayniİsimdeBaskaHayvanVarmi(Hayvan hayvan) {
 		boolean isAnyWithSameName = !hayvanAdlari.add(hayvan.getAd());
-		boolean isAnyWithSameName2 = hayvanlar.containsKey(hayvan);
-		boolean isAnyWithSameName3 = hayvanlar.containsValue(hayvan);
-//		return isAnyWithSameName;
-		return isAnyWithSameName2;
-//		return isAnyWithSameName3;
+		return isAnyWithSameName;
+
 	}
 
 }
